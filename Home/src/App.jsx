@@ -2,7 +2,11 @@ import React from 'react'
 
 const learn = () => {
   return (
-    <div>Hello world</div>
+    <div>
+        <nav>
+            <h1>welcome to my channel</h1>
+        </nav>
+    </div>
   )
 }
 
