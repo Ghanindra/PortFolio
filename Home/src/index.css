@@ -1,0 +1,124 @@
+/* h1{
+    color:green;
+    text-align:center;
+    margin:auto;
+}
+h2{
+    color:red;
+    text-align:center;
+    background-color:yellow;
+    display:inline;
+    border:2px solid black;
+    border-radius:50%;
+}
+@keyframes example {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(50px); }
+    100% { transform: translateX(0); }
+  }
+  h2{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+   */
+  
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+   *{
+    margin:0px;
+    padding:0px;
+   }
+   .logo img{
+    width:50px;
+    height:50px;
+   }
+   body{
+    font-family: "Poppins", sans-serif;
+   
+   }
+.container{
+  max-width:1280px;
+  margin:0 auto;
+}
+   nav {
+    display:flex;
+    justify-content:space-between;
+   
+    height:72px;
+    align-items:center;
+   
+   }
+
+   nav ul{
+    display:flex;
+    gap:20px;
+    list-style:none;
+    
+
+   }
+   button{
+    color:white;
+    background-color:rgb(240, 12, 12);
+    width:80px;
+    height: 40px;;
+   }
+  .shoe{
+   display:flex;
+   align-items:center;
+  height:100vh;
+   
+ 
+  }
+  .brand-icon img{
+    width:50px;
+    height:50px;
+  }
+.shoe-image img{
+  width:600px;
+  height:500px;
+  margin-top:-84px;
+  filter: drop-shadow(8px 23px 6px grey);
+
+  
+}
+.shoe-content h1{
+  font-weight:900;
+  line-height:102px;
+  font-size:108px;
+}
+.shoe-content p{
+  font-weight:1000px;
+  color:black;
+  max-width:400px;
+}
+.hero-btn{
+  display:flex;
+  gap: 30px;
+}
+.sec-btn{
+  background:transparent;
+  color:black;
+}
+.shopping p{
+font-size:14px;
+margin-bottom:8px;
+}
+.brand-icon{
+  display:flex;
+  gap:16px;
+}
+.shoe-content {
+display:flex;
+flex-direction:column;
+gap:36px;
+}
+
+
+.hero-btn button{
+  font-size:24px;
+  width:120px
+}
