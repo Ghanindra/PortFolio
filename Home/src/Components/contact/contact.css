@@ -1,0 +1,110 @@
+
+
+#contact-form {
+    padding: 2rem;
+    max-width:85rem;
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    margin:0 auto;
+  
+    border-radius: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color:white;
+
+}
+#contact-form p{
+    text-align:center;
+}
+.form-group {
+    margin-bottom:1.5rem;
+}
+
+.form-group label {
+    display: flex;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    margin-top:2rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 20rem;
+    padding: 1rem;
+    border: 0.1rem solid #ccc;
+    border-radius: 1rem;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.error-message {
+    color: red;
+    font-size: 1rem;
+    display: block;
+    margin-top: 2rem;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    font-size: 1rem;
+
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.social-buttons {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-buttons a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.social-buttons a i {
+    margin-right: 0; /* Remove margin right for icons */
+   
+}
+
+.social-buttons .facebook-btn .facebook svg
+ {
+    color:blue;
+    font-size:3rem;
+}
+.social-buttons .instagram-btn .instagram svg{
+    color:red;
+    font-size:2.8rem;
+}
+.social-buttons .facebook-btn .facebook svg:hover{
+    transform: scale(1.1);
+
+}
+.social-buttons .instagram-btn .instagram svg:hover{
+    transform: scale(1.1);
+}

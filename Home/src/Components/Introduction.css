@@ -29,7 +29,7 @@
     font-weight:100;
 }
 .introName{
-    color:yellow;
+    color:green;
 }
 .introPara{
     font-size:medium;
@@ -68,11 +68,25 @@
     right:-10vw;
    }
    .introContent{
-    font-size:10vw;
+    font-size:8vw;
     margin-left:4rem;
    }
    .hello{
     font-size:4.5vw;
    }
 }
-
+@media screen and (max-width:480px){
+    .bg{
+     right:-25vw;
+    }
+    .introContent{
+        font-size:8vw;
+        margin-left:2rem;
+       }
+       .hello{
+        font-size:4.5vw;
+        margin-top:266px;
+        margin-left:-12px;
+       }
+    
+ }

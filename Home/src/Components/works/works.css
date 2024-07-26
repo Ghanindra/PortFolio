@@ -1,0 +1,89 @@
+#portfolio {
+    padding: 2rem;
+    max-width:65rem;
+    width:100vw;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align: center;
+    margin:0 auto;
+  
+   
+  }
+  
+  #portfolio h2 {
+    font-size: 2em;
+    margin-bottom: 1rem;
+  padding:1rem;
+  margin-top:16px;
+
+
+  }
+  
+  .para {
+    font-size:0.9rem;
+    font-weight:300;
+    font-size:0.9rem;
+    padding:0 2rem;
+    max-width:51rem;
+   
+    margin-top:2rem;
+    
+  }
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin:1.5rem;
+    width:50vw;
+    max-width:80%;
+    text-align:left;
+    font-weight:300;
+    font-size:0.9rem;
+   
+    flex-direction: column;
+  }
+  
+  .project {
+    background:rgb(50,50,50);
+
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+   
+   
+   
+    
+  }
+  
+  .project h3 {
+    margin-top: 0;
+  }
+  
+  .project a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .project a:hover {
+    text-decoration: underline;
+  }
+  .seeMore{
+    margin:2rem;
+    padding:0.5rem 2.5rem;
+    border:none;
+    border-radius:2rem;
+    background-color: aliceblue;
+    color:black;
+    font-size: 1rem;
+  }
+  .seeMore:hover{
+    background: grey;;
+  }
+  @media screen and (max-width:600px){
+.projects{
+  width:100%;
+}
+  }
